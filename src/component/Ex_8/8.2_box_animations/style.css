@@ -1,0 +1,29 @@
+.slide-in{
+  margin: 5px;
+  background-color:deeppink;
+  animation: slideIn 1000ms
+}
+.slide-out{
+  margin: 5px;
+  background-color:deeppink;
+  animation: slideOut 1000ms
+} 
+@keyframes slideIn{
+  0% {
+      margin-left: -200px;
+  }
+  100% {
+      margin-left: 0px;
+  }
+}
+@keyframes slideOut {
+  0% {
+      opacity: 1;
+      margin-left: 0px;
+      
+  }
+  100% {
+      opacity: 0;
+      margin-left: 200px;
+  }
+}

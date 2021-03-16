@@ -8,6 +8,9 @@ import Ex4_1 from './component/Ex_4/Buttons_4.1/Buttons'
 import Ex4_2 from './component/Ex_4/Cards_4.2/Cards'
 import Ex7_1 from './component/Ex_7/Increment_7.1/Increment'
 import Ex7_2 from './component/Ex_7/Hide_and_seek_7.2/Hide_n_Seek'
+import Ex8_1 from './component/Ex_8/8.1_lifecycle_methods/LifeCycle'
+import Ex8_2 from './component/Ex_8/8.2_box_animations/Box_animations'
+import Ex8_3 from './component/Ex_8/8.3_changing_box/Changing_Box'
 function App() {
   return (
       <div>
@@ -18,7 +21,10 @@ function App() {
         {/* <Ex4_1/> */}
         {/* <Ex4_2/> */}
         {/* <Ex7_1/> */}
-        <Ex7_2/>
+        {/* <Ex7_2/> */}
+        {/* <Ex8_1/> */}
+        {/* <Ex8_2/> */}
+        <Ex8_3/>
       </div>
   );
 }
