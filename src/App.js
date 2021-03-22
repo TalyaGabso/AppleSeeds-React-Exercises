@@ -12,6 +12,8 @@ import Ex8_1 from './component/Ex_8/8.1_lifecycle_methods/LifeCycle'
 import Ex8_2 from './component/Ex_8/8.2_box_animations/Box_animations'
 import Ex8_3 from './component/Ex_8/8.3_changing_box/Changing_Box'
 import Ex11_1 from './component/Ex_11/11.1_child_to_parent_colors/Child_to_Parent'
+import Ex12 from './component/Ex_12/ChuckNorris'
+import Ex13_1 from './component/Ex_13/13.1_react_data_messaging/DataMessage'
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
         {/* <Ex8_1/> */}
         {/* <Ex8_2/> */}
         {/* <Ex8_3/> */}
-        <Ex11_1/>
+        {/* <Ex11_1/> */}
+        {/* <Ex12/> */}
+        <Ex13_1/>
       </div>
   );
 }
