@@ -14,6 +14,7 @@ import Ex8_3 from './component/Ex_8/8.3_changing_box/Changing_Box'
 import Ex11_1 from './component/Ex_11/11.1_child_to_parent_colors/Child_to_Parent'
 import Ex12 from './component/Ex_12/ChuckNorris'
 import Ex13_1 from './component/Ex_13/13.1_react_data_messaging/DataMessage'
+import Ex13_2 from './component/Ex_13/13.2_Avatars/Avatars'
 import Ex14_1 from './component/Ex_14/14.1-focus/Focuse'
 
 function App() {
@@ -33,7 +34,8 @@ function App() {
         {/* <Ex11_1/> */}
         {/* <Ex12/> */}
         {/* <Ex13_1/> */}
-        <Ex14_1/>
+        <Ex13_2/>
+        {/* <Ex14_1/> */}
       </div>
   );
 }

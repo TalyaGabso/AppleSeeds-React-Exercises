@@ -1,0 +1,29 @@
+body {
+	padding: 15px;
+	margin: auto;
+	text-align: center;
+}
+.card-container {
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	column-gap: 15px;
+	max-width: 500px;
+}
+.card {
+	width: 120px;
+	height: 140px;
+}
+.user-img {
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin: auto;
+	width: 120px;
+}
+.card:hover {
+	box-shadow: 0 0 2px 1px rgba(1, 25, 32, 0.5);
+}
+.user-name{
+  font-size: 14px;
+}
