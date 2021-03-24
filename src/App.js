@@ -17,6 +17,7 @@ import Ex13_1 from './component/Ex_13/13.1_react_data_messaging/DataMessage'
 import Ex13_2 from './component/Ex_13/13.2_Avatars/Avatars'
 import Ex14_1 from './component/Ex_14/14.1-focus/Focus'
 import Ex14_2 from './component/Ex_14/14.2-copy/Copy'
+import Ex16 from './component/Ex_16/Ex16_Products'
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
         {/* <Ex13_1/> */}
         {/* <Ex13_2/> */}
         {/* <Ex14_1/> */}
-        <Ex14_2/>
+        {/* <Ex14_2/> */}
+        <Ex16/>
       </div>
   );
 }
