@@ -18,7 +18,7 @@ import Ex13_2 from './component/Ex_13/13.2_Avatars/Avatars'
 import Ex14_1 from './component/Ex_14/14.1-focus/Focus'
 import Ex14_2 from './component/Ex_14/14.2-copy/Copy'
 import Ex16 from './component/Ex_16/Ex16_Products'
-
+import Ex17 from './component/Ex_17/CrudApp'
 function App() {
   return (
       <div>
@@ -39,7 +39,8 @@ function App() {
         {/* <Ex13_2/> */}
         {/* <Ex14_1/> */}
         {/* <Ex14_2/> */}
-        <Ex16/>
+        {/* <Ex16/> */}
+        <Ex17/>
       </div>
   );
 }
