@@ -19,6 +19,9 @@ import Ex14_1 from './component/Ex_14/14.1-focus/Focus'
 import Ex14_2 from './component/Ex_14/14.2-copy/Copy'
 import Ex16 from './component/Ex_16/Ex16_Products'
 import Ex17 from './component/Ex_17/CrudApp'
+import Ex18_1 from './component/Ex_18/18.1-text/TextApp'
+import Ex18_2 from './component/Ex_18/18.2-simple_todo/SimpleToDoApp'
+import Ex18_3 from './component/Ex_18/18.3-whats_the_time/WhatsTheTimeApp'
 function App() {
   return (
       <div>
@@ -40,7 +43,10 @@ function App() {
         {/* <Ex14_1/> */}
         {/* <Ex14_2/> */}
         {/* <Ex16/> */}
-        <Ex17/>
+        {/* <Ex17/> */}
+        <Ex18_1/>
+        {/* <Ex18_2/> */}
+        {/* <Ex18_3/> */}
       </div>
   );
 }

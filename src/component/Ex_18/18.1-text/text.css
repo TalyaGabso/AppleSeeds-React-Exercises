@@ -1,0 +1,10 @@
+.container-read-text{
+  max-width: 500px;
+  height: 350px;
+  padding: 20px;
+  margin: auto;
+}
+.read-text{
+  font-style: italic;
+  color: rgba(29, 29, 29, 0.858);
+}
