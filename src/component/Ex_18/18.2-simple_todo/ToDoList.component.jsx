@@ -16,10 +16,6 @@ const ToDoList = ({ itemsList }) => {
         {item.name}
       </div>)
   })
-  return (
-    <div>
-      {renderedItems}
-    </div>
-  )
+  return renderedItems
 }
 export default ToDoList;
