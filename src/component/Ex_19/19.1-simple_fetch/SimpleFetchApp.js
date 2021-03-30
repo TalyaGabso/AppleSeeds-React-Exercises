@@ -6,7 +6,6 @@ const SimpleFetchApp = () => {
 	useEffect(() => {
 		const movieData = async () => {
 			const result = await axios.get("https://swapi.dev/api/films/1/");
-			console.log(result.data);
 			setData(result.data);
 		};
 		movieData();
