@@ -22,11 +22,15 @@
 // import Ex18_1 from './component/Ex_18/18.1-text/TextApp'
 // import Ex18_2 from './component/Ex_18/18.2-simple_todo/SimpleToDoApp'
 // import Ex18_3 from './component/Ex_18/18.3-whats_the_time/WhatsTheTimeApp'
-import Ex18_4 from './component/Ex_18/18.4-marking and deleting/MarkAndDeleteApp'
-import Ex19_1 from './component/Ex_19/19.1-simple_fetch/SimpleFetchApp'
-import Ex19_2 from './component/Ex_19/19.2-countries_of_the_world/CountriesApp'
-import Ex19_3 from './component/Ex_19/19.3-algolia_api/AlgoliaApiApp'
-import Ex19_4 from './component/Ex_19/19.4-refactor_fetch_with_hooks/RefactorFetchApp'
+// import Ex18_4 from './component/Ex_18/18.4-marking and deleting/MarkAndDeleteApp'
+// import Ex19_1 from './component/Ex_19/19.1-simple_fetch/SimpleFetchApp'
+// import Ex19_2 from './component/Ex_19/19.2-countries_of_the_world/CountriesApp'
+// import Ex19_3 from './component/Ex_19/19.3-algolia_api/AlgoliaApiApp'
+// import Ex19_4 from './component/Ex_19/19.4-refactor_fetch_with_hooks/RefactorFetchApp'
+// import Ex20 from './component/Ex_20/CancelRequestApp'
+import Ex21_1 from './component/Ex_21/21.1-editing/EditingApp'
+import Ex21_2 from './component/Ex_21/21.2-play_pause_video/VideoApp'
+import Ex21_3 from './component/Ex_21/21.3-image_toggle/ImageToggleApp'
 function App() {
   return (
       <div>
@@ -55,8 +59,12 @@ function App() {
         {/* <Ex18_4/> */}
         {/* <Ex19_1/> */}
         {/* <Ex19_2/> */}
-        <Ex19_3/>
+        {/* <Ex19_3/> */}
         {/* <Ex19_4/> */}
+        {/* <Ex20/> */}
+        {/* <Ex21_1/> */}
+        {/* <Ex21_2/> */}
+        <Ex21_3/>
       </div>
   );
 }
